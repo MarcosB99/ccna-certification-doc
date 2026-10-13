@@ -1,0 +1,23 @@
+Network Fundamentals:
+
+1.0 Explain the role and function of network components.
+    1.1.a Routers
+        A router is a networking device that receives, prioritizes, and forwards data packets between local devices and external networks like the internet.
+
+
+CCNA FULL COURSE YT:
+0.0 What is a Network?
+    A computer network is a digital telecommunications network which allows nodes to share resources.
+    
+    0.1 Client
+        A client is a device that accesses a service made available by a server.
+    0.2 Server
+        A server is a device that provides functions or services for clients.
+    
+    The same device can be a client/server, depending on the situation.
+
+    0.3 Switch
+        A network switch is a hardware device that connects multiple devices together on a LAN using ethernet cables.
+    
+    Core Concepts:
+    LAN: Local Area Network
