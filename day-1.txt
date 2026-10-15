@@ -18,6 +18,29 @@ CCNA FULL COURSE YT:
 
     0.3 Switch
         A network switch is a hardware device that connects multiple devices together on a LAN using ethernet cables.
+        - They have many network interfaces/ports for end hosts to connect to.
+        - They provide connectivity to hosts within the same LAN.
+        - They don't provide connectivity between LAN/s over the internet.
+    
+    0.4 Routers
+        - They have fewer network interfaces than switches.
+        - They provide connectivity between LANs.
+        - They are therefore used to send data over the internet.
+
+    0.5 Firewalls
+        - They monitor and control network traffic based on configured rules.
+        - They can be placed inside/outside the network.
+        - They are known as "Next-Gen Firewalls" when they include more modern and advanced filtering capabilities.
+
+        0.5.1 Types of Firewalls.
+            -Network Firewalls: Hardware devices that filter traffic between networks.
+            -Host-based firewalls: Software applications that filter traffic entering/exiting a host machine, like a PC.
     
     Core Concepts:
     LAN: Local Area Network
+
+    Supplementary Materials:
+    - YT videos
+    - Review Flash Cards (using Anki)
+    - Packet Tracer practice labs
+    
