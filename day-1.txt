@@ -2,7 +2,28 @@ Network Fundamentals:
 
 1.0 Explain the role and function of network components.
     1.1.a Routers
-        A router is a networking device that receives, prioritizes, and forwards data packets between local devices and external networks like the internet.
+        A router is a networking device that receives, prioritizes, and forwards data packets between local devices and external networks like the internet. They are essentially the gateways between fifferent networks. They operate at Layer 3 (Network layer) of the OSI model.
+        1.1.a.i Primary Function: Connect distinct IP subnets and determine the best path to send packets to their destination.
+        1.1.a.ii Forwarding Decision: Based on the destination IP address using a Routing Table.
+        1.1.a.iii CCNA Key Concept: Routers break bradcast domains. A broadcast packet (like an ARP request) sent on one interface will not be forwarded out another interface by default. Every router interface must belong to a different IP subnet.
+
+    1.1.b Layer 2 and Layer 3 switches
+        Is a hardware device that connects multiple computers, printers, and other wired devices together inside a LAN.
+        1.1.b.i Layer 2 Switches (Data Link Layer):
+            - Forward frames based entirely on destination MAC addresses.
+            - Build and mantain a MAC address table by examining the source MAC address of incoming frames.
+            - CCNA Key Concept: They break collision domains (each port is its own collision domain) but they do not break boradcast domains. All ports belong to the same broadcast domain unless separated by VLANs.
+        1.1.b.ii Layer 3 Switches (Network Layer):
+            - Often called Multilayer Switches, these perform MAC-based switching (Layer 2) and IP-based routing (Layer 3) in hardware.
+            - CCNA Key Concept: They are heavily used for Inter-VLAN routing using Switch Virtual Interfaces (SVIs). They route packets between internal VLANs much faster than a traditional router.
+    
+    1.1.c Next-Generation Firewalls
+        Traditional firewalls filter based on simple rules (IP addresses and port numbers). NGFWs go much deeper, operating up to Layer 7 (Application Layer).
+            - NGFW: Can identify specific applications (e.g., distinguishing between regular web browsing and a BitTorrent client using the same port). They provide stateful inspection, URL filtering and malware protection.
+            - IPS (Intrusion prevention system): Sits inline with traffic. It actively scans packets for known malware signatures or behavioral anomalies. If an attack is detected, the IPS drops the packet immediately.
+            - CCNA key concept: The key distinction for the exam is that an IDS (Intrusion Detection System) only sends an alert, while an IPS actively blocks the threat.
+
+    1.1.d 
 
 
 CCNA FULL COURSE YT:
