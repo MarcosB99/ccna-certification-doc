@@ -23,7 +23,7 @@ Network Fundamentals:
             - IPS (Intrusion prevention system): Sits inline with traffic. It actively scans packets for known malware signatures or behavioral anomalies. If an attack is detected, the IPS drops the packet immediately.
             - CCNA key concept: The key distinction for the exam is that an IDS (Intrusion Detection System) only sends an alert, while an IPS actively blocks the threat.
 
-    1.1.d 
+    1.1.d  
 
 
 CCNA FULL COURSE YT:
